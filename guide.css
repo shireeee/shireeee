@@ -64,20 +64,20 @@ main{
   height: 50px;
   background-color: #aaa;
 }
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px){
-}
-
-.header {
+.header{
   width: 100%;
 }
 
 main {
   width: 100%;
+  display: block;
 }
 
 .step-box {
   width: 90%;
+  margin: 0 5% 20px;
 }
 
 .step-img1 {
@@ -92,10 +92,7 @@ main {
   width: 100%;
 }
 
-.title {
-  width: 100%;
-}
-
 .footer {
-  width: 100%;
+  width: 100%
+}
 }
